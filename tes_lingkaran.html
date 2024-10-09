@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Belajar JavaScript di STIKOM</title>
+    </head>
+    <body>
+        <body>
+            <script type="module">
+                import { luaslingkaran, kelilingLingkaran} from './lingkaran.js';
+
+                let radius = prompt("masukkan panjang radius lingkaran");
+                let luas = luaslingkaran(radius);
+                let keliling = kelilingLingkaran(radius);
+
+                alert('Luas : ${luas} | keliling : ${keliling}');
+            </script>
+        </body>
+    </head>
