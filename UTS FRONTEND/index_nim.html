@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pengiriman Barang</title>
+    <script src="script_nim.js"></script>
+</head>
+<body>
+    <h2>Form Input Pengiriman Barang</h2>
+    <form>
+        <div>
+            <label for="asal">Kota Asal:</label>
+            <select id="asal" name="asal" required>
+                <option value="">Pilih Kota Asal</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="tujuan">Kota Tujuan:</label>
+            <select id="tujuan" name="tujuan" required>
+                <option value="">Pilih Kota Tujuan</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="berat">Berat Barang (kg):</label>
+            <input type="number" id="berat" name="berat" required placeholder="Masukkan berat barang">
+        </div>
+        <br>
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>
